@@ -1,0 +1,259 @@
+    1  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+    2  pwd
+    3  ls
+    4  pwd
+    5  sudo apt update 
+    6  sudo apt update
+    7  sudo apt install firefox-esr
+    8  cd
+    9  ls
+   10  ls 
+   11  .bashrc
+   12  ls
+   13  ls -a
+   14  cd
+   15  pwd
+   16  cat ~/.bashrc
+   17  cat
+   18  ls ~
+   19  nano ~/.bashrc
+   20  ls
+   21  flatpak install flathub com.brave.Browser
+   22  sudo apt install flatpak
+   23  flatpak install flathub com.brave.Browser
+   24  sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+   25  reboot
+   26  mkdir -p ~/basic_workspace
+   27  cd
+   28  ls
+   29  ls ~
+   30  ls~
+   31  cd downloads
+   32  cd Downloads
+   33  cd ~
+   34  ssh-keygen
+   35  cat ~/.ssh/id_rsa.pub
+   36  cat ~/.ssh/id_ed25519.pub
+   37  ssh -T git@gitlab.rwu.de
+   38  flatpak install flathub com.brave.Browser
+   39  flatpak run com.brave.Browser
+   40  clear
+   41  mkdir -p ~/basic_workspace
+   42  git config --global user.name "Elrick Winston Dsouza"
+   43  git config --global user.email "ed-258098@rwu.de"
+   44  sudo apt update
+   45  sudo apt install git
+   46  git --version
+   47  sudo add-apt-repository ppa:git-core/ppa
+   48  sudo apt update
+   49  sudo apt upgrade git
+   50  git --version
+   51  git config --global user.name "Elrick Winston Dsouza"
+   52  git config --global user.email "ed-258098@rwu.de"
+   53  git config --global user.name "Elrick Winston Dsouza"
+   54  git config --global user.email "ed-258098@rwu.de"
+   55  cd ~/basic_workspace
+   56  git clone git@gitlab.rwu.de:stud-iki/vl-bootcamp-basics/25ws_ed-258098.git
+   57  cd 25ws_ed-258098
+   58  cd ~/basic_workspace/25ws_ed-258098
+   59  git branch
+   60  git pull
+   61  git checkout dev_stage_0
+   62  cd linux_git
+   63  sh ./getPcSpecs.sh
+   64  git status
+   65  git add pcspecs.txt
+   66  git commit -m "Execute script from issue #5"
+   67  git push
+   68  [200~flatpak install flathub com.rustdesk.RustDesk~
+   69  flatpak install flathub com.rustdesk.RustDesk
+   70  ./install 
+   71  ./matlab
+   72  open
+   73  GCC --version
+   74  sudo apt install gcc
+   75  gcc --version
+   76  sudo snap install spotify
+   77  spotify
+   78  pwd
+   79  ls
+   80  cd Robotics
+   81  cd desktop
+   82  cd Desktop
+   83  cd home
+   84  pwd
+   85  ls
+   86  cd Robotics
+   87  pwd
+   88  sudo apt update
+   89  sudo apt install terminator
+   90  Terminator
+   91  matlab &
+   92  ls /home/elrickdsouza/Applications/MATLAB/bin/glnxa64 | head -20
+   93  find / -name "matlab" -type f 2>/dev/null
+   94  /home/elrickdsouza/Applications/MATLAB/bin/matlab &
+   95  echo 'export PATH=$PATH:/home/elrickdsouza/Applications/MATLAB/bin' >> ~/.bashrc
+   96  source ~/.bashrc
+   97  matlab &
+   98  exit
+   99  # find MATLAB's process ID
+  100  pgrep -l matlab
+  101  # kill it using the process ID shown
+  102  kill -9 $(pgrep matlab)
+  103  cd ~/basic_workspace
+  104  ls
+  105  passwd
+  106  sudo snap install code --classic
+  107  code --version
+  108  xrandr --query
+  109  lspci | grep -i vga
+  110  xrandr --query
+  111  sudo snap install whatsapp-for-linux
+  112  sudo snap install whatsapp
+  113  which matlab
+  114  find / -name "matlab" -type f 2>/dev/null
+  115  cd ~/MATLAB/matlab_R2025b_Linux
+  116  chmod +x install
+  117  sudo ./install
+  118  /home/elrickdsouza/Applications/MATLAB/bin/matlab
+  119  /home/elrickdsouza/Applications/MATLAB/bin/matlab &
+  120  cd home
+  121  cd
+  122  pwd
+  123  cd Robotics
+  124  cd Desktop
+  125  pwd
+  126  cd
+  127  pwd
+  128  mkdir -p ~/basic_workspace
+  129  git config --global user.name "<Elrick Winston Dsouza>"
+  130  git config --global user.email "<dsouzaelrick@gmail.com>"
+  131  cd ~/basic_workspace
+  132  git clone git@gitlab.rwu.de:stud-iki/vl-robotics/26ss_ed-258098.git
+  133  cd 26ss_ed-258098
+  134  cd ~/basic_workspace
+  135  git clone git@gitlab.rwu.de:stud-iki/vl-robotics/26ss_ed-258098.git       
+  136  cd 26ss_ed-258098   
+  137  git config --global user.name "Elrick Winston Dsouza"
+  138  git config --global user.email "ed-258098@hs-weingarten.de"
+  139  cd ~/basic_workspace
+  140  git clone git@gitlab.rwu.de:stud-iki/vl-robotics/26ss_ed-258098.git       
+  141  cd 26ss_ed-258098   
+  142  cd ~/basic_workspace
+  143  git clone git@gitlab.rwu.de:stud-iki/vl-robotics/26ss_ed-258098.git       
+  144  cd 26ss_ed-258098   
+  145  cd ~/basic_workspace
+  146  git clone git@gitlab.rwu.de:stud-iki/vl-robotics/26ss_ed-258098.git       
+  147  cd 26ss_ed-258098 
+  148  ssh-add -D
+  149  secret-tool clear unique ssh:fingerprint
+  150  cd ~/basic_workspace
+  151  git clone git@gitlab.rwu.de:stud-iki/vl-robotics/26ss_ed-258098.git       
+  152  cd 26ss_ed-258098   
+  153  secret-tool clear unique ssh:fingerprint
+  154  killall ssh-agent
+  155  eval "$(ssh-agent -s)"
+  156  SSH_ASKPASS="" ssh-add ~/.ssh/id_ed25519
+  157  sudo apt install ssh-askpass-gnome
+  158  export SSH_ASKPASS=/usr/lib/openssh/gnome-ssh-askpass
+  159  killall ssh-agent
+  160  eval "$(ssh-agent -s)"
+  161  ssh-add ~/.ssh/id_ed25519
+  162  cd ~/basic_workspace
+  163  git clone git@gitlab.rwu.de:stud-iki/vl-robotics/26ss_ed-258098.git       
+  164  cd 26ss_ed-258098   
+  165  sudo apt install libsecret-tools
+  166  secret-tool clear unique ssh:fingerprint
+  167  killall ssh-agent
+  168  eval "$(ssh-agent -s)"
+  169  secret-tool clear unique ssh:fingerprint:$(ssh-keygen -lf ~/.ssh/id_ed25519 | awk '{print $2}')
+  170  sudo apt install libsecret-tools
+  171  secret-tool clear application ssh
+  172  ssh-keygen -lf ~/.ssh/id_ed25519
+  173  secret-tool clear unique ssh:fingerprint:$(ssh-keygen -lf ~/.ssh/id_ed25519 | awk '{print $2}')
+  174  killall ssh-agent
+  175  eval "$(ssh-agent -s)"
+  176  ssh-add ~/.ssh/id_ed25519
+  177  seahorse
+  178  killall ssh-agent
+  179  eval "$(ssh-agent -s)"
+  180  ssh-add ~/.ssh/id_ed25519
+  181  ssh -T git@gitlab.rwu.de
+  182  cd ~
+  183  ssh-keygen
+  184  seahorse
+  185  cat ~/.ssh/id_rsa.pub
+  186  cat ~/.ssh/id_ed25519.pub
+  187  ssh -T git@gitlab.rwu.de
+  188  mkdir -p ~/basic_workspace
+  189  git config --global user.name "Elrick Winston Dsouza"
+  190  git config --global user.email "ed-258098@hs-weingarten.de"
+  191  cd ~/basic_workspace
+  192  git clone git@gitlab.rwu.de:stud-iki/vl-robotics/26ss_ed-258098.git       
+  193  cd 26ss_ed-258098   
+  194  git checkout dev_stage_0
+  195  git pull
+  196  git checkout dev_stage_0
+  197  cd linux_git
+  198  sh ./getPcSpecs.sh
+  199  pwd
+  200  ls
+  201  cd stage_0
+  202  sh ./getPcSpecs.sh
+  203  git status
+  204  git add pcspecs.txt
+  205  git commit -m "Execute script from issue #5"
+  206  git push
+  207  cd basic_workspace/26ss_ed-258098/stage_0
+  208  cd stage_0
+  209  pwd
+  210  cd home
+  211  cd Home
+  212  cd ~
+  213  cd 26ss_ed-258098/stage_0
+  214  cd stage_0
+  215  cd 26ss_ed-258098
+  216  cd ~/basic_workspace
+  217  cd 26ss_ed-258098
+  218  cd stage_0
+  219  pwd
+  220  echo "Hello" > greeting.txt
+  221  git add greeting.txt
+  222  git commit -m "Initial commit with greeting"
+  223  git add greeting.txt
+  224  git commit -m "Initial commit with greeting"
+  225  git checkout -b conflict-a
+  226  echo "Hello from A" > greeting.txt
+  227  git add greeting.txt
+  228  git commit -m "Change greeting in branch conflict-a"
+  229  git checkout dev_stage_0
+  230  git checkout -b conflict-b
+  231  echo "Hello from B" > greeting.txt
+  232  git add greeting.txt
+  233  git commit -m "Change greeting in branch conflict-b"
+  234  nano greeting.txt
+  235  git add greeting.txt
+  236  git commit -m "Resolved merge conflict between A and B"
+  237  git log --graph --oneline
+  238  git checkout dev_stage_0
+  239  git status
+  240  cat greeting.txt
+  241  git log --graph --oneline
+  242  git checkout dev_stage_0
+  243  git push
+  244  ssh -T git@gitlab.rwu.de
+  245  eval "$(ssh-agent -s)"
+  246  ssh-add ~/.ssh/id_ed25519
+  247  ssh -T git@gitlab.rwu.de
+  248  git push
+  249  git revert HEAD
+  250  git push
+  251  git log --oneline
+  252  git log --graph --oneline
+  253  git checkout dev_stage_0
+  254  ~/.bash_history
+  255  cat ~/.bash_history
+  256  cd basic_workspace
+  257  cd ~/basic_workspace/26ss_ed-258098/stage_0
+  258  pwd
+  259  touch myhistory && history > myhistory
